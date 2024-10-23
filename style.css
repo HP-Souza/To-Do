@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  width:100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+}
+
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/005/182/612/non_2x/green-abstract-geometric-shape-background-free-vector.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.formulario{
+  border-style: inset;
+  background-color: rgba(255, 255, 255, 0.479);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.caixa-tarefas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+
+.checked {
+  cursor: pointer;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.close {
+  cursor: pointer;
+  color: red;
+}

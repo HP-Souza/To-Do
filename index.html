@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>ToDo</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1>LISTA DE TAREFAS</h1>
+
+      <div class="formulario">
+        <form name="formPrincipal">
+          <label for="tarefa">Tarefa:</label>
+          <input type="text" name="tarefa" id="tarefa" /><br /><br />
+          <button type="button" onclick="adicionarTarefa()">Adicionar</button
+          ><br /><br />
+        </form>
+      </div>
+      <div class="caixa-tarefas">
+        <fieldset>
+          <legend>Tarefas</legend>
+          <ul></ul>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</html>
